@@ -65,7 +65,7 @@ header h2 {
 }
 
 header button {
-  background: var(--yellow);
+  background: #ebb387;
 }
 
 .Filter {
@@ -94,21 +94,10 @@ header button {
   border-radius: 4px;
 }
 
-.Items li.in-cart {
-  background: var(--background-light);
-}
-
-.Items li.in-cart span {
-  text-decoration: line-through;
-}
-
-.Items button.add {
-  background-color: var(--yellow);
-}
 
 .Items button.remove {
-  background-color: var(--magenta);
-  color: white;
+  background-color: var(--cyan);
+  color: black;
 }
 
 .Items li .category {
@@ -128,7 +117,7 @@ header button {
 }
 
 .NewItem button {
-  background: var(--yellow);
+  background:#ebb387;
 }
 
 .NewItem label {
