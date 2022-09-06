@@ -1,7 +1,7 @@
-import React, {useEffect, useState} from 'react'
-import Employee from './Employee'
-import EmployeeForm from './EmployeeForm'
-import Filter from './Filter'
+import React, { useEffect, useState } from "react";
+import Employee from "./Employee";
+import EmployeeForm from "./EmployeeForm";
+import Filter from "./Filter";
 
 function TotalList() {
   const [selectedCategory, setSelectedCategory] = useState("All");
@@ -14,7 +14,9 @@ function TotalList() {
   }, []);
 
   function handleDeleteEmployee(deletedEmployee) {
-    const updatedEmployees = employees.filter((employees) => employees.id !== deletedEmployee.id);
+    const updatedEmployees = employees.filter(
+      (employees) => employees.id !== deletedEmployee.id
+    );
     setEmployees(updatedEmployees);
   }
 
@@ -43,28 +45,25 @@ function TotalList() {
     return employee.category === selectedCategory;
   });
 
-
-
   return (
     <div className="ShoppingList">
-    <EmployeeForm onAddEmployee={handleAddEmployee} />
-    <Filter
-      category={selectedCategory}
-      onCategoryChange={handleCategoryChange}
-    />
-    <ul className="Items">
-      {employeesToDisplay.map((employee) => (
-        <Employee
-          key={employee.id}
-          employee={employee}
-          onUpdateEmployee={handleUpdateEmployee}
-          onDeleteEmployee={handleDeleteEmployee}
-        />
-      ))}
-    </ul>
-  </div>
-   
-  )
+      <EmployeeForm onAddEmployee={handleAddEmployee} />
+      <Filter
+        category={selectedCategory}
+        onCategoryChange={handleCategoryChange}
+      />
+      <ul className="Items">
+        {employeesToDisplay.map((employee) => (
+          <Employee
+            key={employee.id}
+            employee={employee}
+            onUpdateEmployee={handleUpdateEmployee}
+            onDeleteEmployee={handleDeleteEmployee}
+          />
+        ))}
+      </ul>
+    </div>
+  );
 }
 
-export default TotalList
+export default TotalList;
