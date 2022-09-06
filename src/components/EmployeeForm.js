@@ -14,9 +14,6 @@ function EmployeeForm({ onAddEmployee }) {
       category: category,
       is_present: false,
 
-     
-
-      
     };
     fetch("http://localhost:9292/employees", {
       method: "POST",
@@ -31,7 +28,7 @@ function EmployeeForm({ onAddEmployee }) {
   return (
     <form className="NewItem" onSubmit={handleSubmit}>
       <label>
-        Name and Email address:
+        Enter Name and Email address:
         <input
           type="text"
           name="name"
@@ -48,10 +45,13 @@ function EmployeeForm({ onAddEmployee }) {
           onChange={(e) => setCategory(e.target.value)}
         >
           <option value="Select Role">Select Role</option>
+          <option value="C.E.O">C.E.O</option>
           <option value="Director">Director</option>
           <option value="Secretary">Secretary</option>
-          <option value="Data">Data</option>
+          <option value="Data Engineer">Data Engineer</option>
           <option value="Accountant">Accountant</option>
+          <option value="Administrative Assistabt">Administrative Assistant</option>
+
         </select>
       </label>
 
