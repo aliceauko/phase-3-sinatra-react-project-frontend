@@ -90,19 +90,24 @@ header button {
 }
 
 .Items li {
-  margin: 0.5rem 0;
-  padding: 0.25rem;
   display: grid;
   grid-template-columns: 1fr 1fr 160px 100px;
   column-gap: 1rem;
   align-items: center;
   border-radius: 4px;
+  margin: 0.5rem 0;
+  padding: 0.25rem;
+ 
+  
 }
 
 
 .Items button.remove {
   background-color: var(--cyan);
   color: black;
+}
+.Items button.remove:hover{
+  background-color: var(--background-light);
 }
 
 .Items li .category {
@@ -112,13 +117,14 @@ header button {
 }
 
 .NewItem {
-  border-bottom: 2px solid var(--background-light);
-  border-top: 2px solid var(--background-light);
-  padding: 1rem 0;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
   gap: 1rem;
+  border-bottom: 2px solid var(--background-light);
+  border-top: 2px solid var(--background-light);
+  padding: 1rem 0;
+  
 }
 
 .NewItem button {

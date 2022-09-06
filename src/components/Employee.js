@@ -12,6 +12,7 @@ function Employee({employee, onDeleteEmployee}) {
 
 
   return (
+    
     <li className={employee.is_present ? "in-cart" : ""}>
     <span>{employee.name}</span>
     <span className="category">{employee.category}</span>
