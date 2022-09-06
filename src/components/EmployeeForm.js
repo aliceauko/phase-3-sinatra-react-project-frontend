@@ -2,14 +2,20 @@ import React, { useState } from "react";
 
 function EmployeeForm({ onAddEmployee }) {
   const [name, setName] = useState("");
-  const [category, setCategory] = useState("Director");
+  const [category, setCategory] = useState("Select Role");
 
   function handleSubmit(e) {
     e.preventDefault();
+    setName('');
+    setCategory('Select Role')
     const employeeData = {
       name: name,
       category: category,
       is_present: false,
+
+     
+
+      
     };
     fetch("http://localhost:9292/employees", {
       method: "POST",
@@ -24,7 +30,7 @@ function EmployeeForm({ onAddEmployee }) {
   return (
     <form className="NewItem" onSubmit={handleSubmit}>
       <label>
-        Name and Email:
+        Name and Email address:
         <input
           type="text"
           name="name"
@@ -34,19 +40,21 @@ function EmployeeForm({ onAddEmployee }) {
       </label>
 
       <label>
-        Department:
+        Role:
         <select
           name="category"
           value={category}
           onChange={(e) => setCategory(e.target.value)}
         >
+          <option value="Select Role">Select Role</option>
           <option value="Director">Director</option>
           <option value="Secretary">Secretary</option>
           <option value="Data">Data</option>
+          <option value="Accountant">Accountant</option>
         </select>
       </label>
 
-      <button type="submit">Add to List</button>
+      <button type="submit">Add Employee</button>
     </form>
   );
 }
