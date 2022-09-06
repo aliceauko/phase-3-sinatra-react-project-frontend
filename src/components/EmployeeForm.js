@@ -7,6 +7,7 @@ function EmployeeForm({ onAddEmployee }) {
   function handleSubmit(e) {
     e.preventDefault();
     setName('');
+    
     setCategory('Select Role')
     const employeeData = {
       name: name,
@@ -54,7 +55,7 @@ function EmployeeForm({ onAddEmployee }) {
         </select>
       </label>
 
-      <button type="submit">Add Employee</button>
+      <button type="submit" disabled={!name}>Add Employee</button>
     </form>
   );
 }
