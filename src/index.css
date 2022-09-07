@@ -14,8 +14,8 @@
 }
 
 body {
-  font-size: 20px;
-  background: rgb(231, 231, 231);
+  font-size: 18px;
+  background:#ADD8E6;
   font-family: Verdana, sans-serif;
 
 }
@@ -85,7 +85,7 @@ header button {
 .Filter input {
   width: 45%;
   margin: 1rem 0;
-  background: var(--cyan);
+  background: #ADD8E6;
 }
 
 .Items {
@@ -98,15 +98,16 @@ header button {
   column-gap: 1rem;
   align-items: center;
   border-radius: 4px;
-  margin: 0.5rem 0;
-  padding: 0.25rem;
+  margin: 0.7rem 0;
+  padding: 0.5rem;
+  border: 2px solid #ADD8E6;
 
 
 }
 
 
 .Items button.remove {
-  background-color: var(--cyan);
+  background-color: #ADD8E6;
   color: black;
 }
 

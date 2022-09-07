@@ -11,7 +11,7 @@ function Filter({ category, onCategoryChange }) {
         <option value="All">Filter by Role</option>
         <option value="C.E.O">C.E.O</option>
         <option value="Director">Director</option>
-        <option value="Data">Data</option>
+        <option value="Data Engineer">Data Engineer</option>
         <option value="Secretary">Secretary</option>
         <option value="Accountant">Accountant</option>
         <option value="Administrative assistant">Administrative assistant</option>
