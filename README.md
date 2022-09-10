@@ -9,15 +9,15 @@ Getting:
 1. The name and email addresses of the employees
 2. The roles of the employees
 
-Using CRUD to post new employees and get their categories from the table 
-Using CRUD to delete the users from the database 
-Using CRUD to filter the employees based on their different roles 
+* Using CRUD to post new employees and get their categories from the table 
+* Using CRUD to delete the users from the database 
+* Using CRUD to filter the employees based on their different roles 
 
 
 ******
 
 ## SCREENSHOT
-  ![image](./src/Images/localhost_3000_ (4).png)
+  ![image](./src/Images/localhost_3000_%20(4).png)
 
 
 ********
@@ -64,9 +64,7 @@ Or you can access the web application directly via this [LINK.]()
 * Filter according to department
 * Be able to mark either present or absent
 *****
-## Blockers
-* I was unable to apply CRUD well as my json.db server isn't updating
-*****
+
 ## Contact Information
 * Email : aukoalice@gmail.com
 * Linked - [Owiti Alice Auko](https://www.linkedin.com/in/owiti-alice-auko-580b2818a)
