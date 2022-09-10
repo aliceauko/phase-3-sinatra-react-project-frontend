@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# Employee Management System
+*****
+### Author : Alice Auko 10th September 2022
+****
+## Project Description
+An Employee records management system built with  basic API with Sinatra and Active Record to support a React
+frontend.
+Getting:
+1. The name and email addresses of the employees
+2. The roles of the employees
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Using CRUD to post new employees and get their categories from the table 
 
-## Available Scripts
 
-In the project directory, you can run:
+******
 
-### `npm start`
+## SCREENSHOT
+  ![image](./src/Images/localhost_3000_%20(3).png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+********
+## SetUp Instruction
+### Requirements
+* [HTML](lang Url)
+* Text editor eg [Visual Studio Code](https://code.visualstudio.com/download)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+### Getting Files
+* Fork the repo
+- Create a new branch in your terminal (git checkout -b improve-feature)
+- Install the prerequisites
+- Make appropriate changes in file(s)
+- Run the server to see the changes
+- Add the changes and commit them (git commit -am "Improve App")
+- Push to the branch (git push origin improve-app)
+- Create a Pull request
+* Open the folder location on terminal and use the following command to run app:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## How To Run It
+Run npm install to install the prerequisites and then npm start
+*****
+## Live Link
+Or you can access the web application directly via this [LINK.](https://recipe-app-git-main-aliceauko.vercel.app/)
+*****
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Technologies Used
+1. HTML
+2. CSS
+3. React js
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+*****
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Known Bugs
+* The first loading might take some time
+*****
+## Blockers
+* I was unable to apply CRUD well as my json.db server isn't updating
+*****
+## Contact Information
+* Email : aukoalice@gmail.com
+* Linked - [Owiti Alice Auko](https://www.linkedin.com/in/owiti-alice-auko-580b2818a)
+*****
+## [License](LICENSE)
+MIT License
+Copyright (c) 2022 Alice Auko
