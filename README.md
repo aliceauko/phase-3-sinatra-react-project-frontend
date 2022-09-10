@@ -29,26 +29,27 @@ Getting:
 
 
 ### Getting Files
-*Fork the repo "https://github.com/aliceauko/phase-3-sinatra-react-project-backend"
+- Fork the repo "https://github.com/aliceauko/phase-3-sinatra-react-project-backend"
 - run back end server through entering command in the terminal bundle exec rake server
 - Fork the repo "https://github.com/aliceauko/phase-3-sinatra-react-project-frontend"
 - Create a new branch in your terminal (git checkout -b improve-feature)
 - Install the prerequisites by running npm install and then npm start to start the react app
--View the app in the browser and use it by adding a name and email adress, select the role and click the add employee button. Click the dark and light mode button. Click ffilter by role to see the various roles you've added. You can also delete the employee
+- View the app in the browser and use it by adding a name and email adress, select the role and click the add  employee button. Click the dark and light mode button. Click ffilter by role to see the various roles you've added. You can also delete the employee
 - Make appropriate changes in file(s)
 - Run the server to see the changes
 - Add the changes and commit them (git commit -am "Improve App")
 - Push to the branch (git push origin improve-app)
 - Create a Pull request
-* Open the folder location on terminal and use the following command to run app:
 
 ## How To Run It
-For the back end run bundle install ato install the prerequisites and then 
- For the front end run npm install to install the prerequisites and then npm start and then bundle exec rake server
-*****
+ * For the back end run bundle install ato install the prerequisites and then 
+ * For the front end run npm install to install the prerequisites and then npm start and then bundle exec rake server
+ *****
 ## Live Link
-Or you can access the web application directly via this [LINK.]()
+ * Or you can access the web application directly via this [LINK.]()
 *****
+## Video demo link
+ * https://drive.google.com/file/d/1foMdPb2hJwZ9A8iz-PolzwFeIP25CaTn/view?usp=sharing
 
 ## Technologies Used
 1. HTML
