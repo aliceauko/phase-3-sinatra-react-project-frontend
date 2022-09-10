@@ -10,6 +10,8 @@ Getting:
 2. The roles of the employees
 
 Using CRUD to post new employees and get their categories from the table 
+Using CRUD to delete the users from the database 
+Using CRUD to filter the employees based on their different roles 
 
 
 ******
@@ -27,9 +29,12 @@ Using CRUD to post new employees and get their categories from the table
 
 
 ### Getting Files
-* Fork the repo
+*Fork the repo "https://github.com/aliceauko/phase-3-sinatra-react-project-backend"
+- run back end server through entering command in the terminal bundle exec rake server
+- Fork the repo "https://github.com/aliceauko/phase-3-sinatra-react-project-frontend"
 - Create a new branch in your terminal (git checkout -b improve-feature)
-- Install the prerequisites
+- Install the prerequisites by running npm install and then npm start to start the react app
+-View the app in the browser and use it by adding a name and email adress, select the role and click the add employee button. Click the dark and light mode button. Click ffilter by role to see the various roles you've added. You can also delete the employee
 - Make appropriate changes in file(s)
 - Run the server to see the changes
 - Add the changes and commit them (git commit -am "Improve App")
@@ -38,21 +43,26 @@ Using CRUD to post new employees and get their categories from the table
 * Open the folder location on terminal and use the following command to run app:
 
 ## How To Run It
-Run npm install to install the prerequisites and then npm start
+For the back end run bundle install ato install the prerequisites and then 
+ For the front end run npm install to install the prerequisites and then npm start and then bundle exec rake server
 *****
 ## Live Link
-Or you can access the web application directly via this [LINK.](https://recipe-app-git-main-aliceauko.vercel.app/)
+Or you can access the web application directly via this [LINK.]()
 *****
 
 ## Technologies Used
 1. HTML
 2. CSS
 3. React js
+4. Ruby
+5. SQLite3 (Sinatra and Active Records)
 
 *****
 
-## Known Bugs
-* The first loading might take some time
+## Future additions
+* Add the edit button
+* Filter according to department
+* Be able to mark either present or absent
 *****
 ## Blockers
 * I was unable to apply CRUD well as my json.db server isn't updating
