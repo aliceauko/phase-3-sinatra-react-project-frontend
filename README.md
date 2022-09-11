@@ -46,7 +46,7 @@ Getting:
  * For the front end run npm install to install the prerequisites and then npm start and then bundle exec rake server
  *****
 ## Live Link
- * Or you can access the web application directly via this [LINK.]()
+ * Or you can access the web application directly via this [LINK.](https://phase-3-sinatra-react-project-frontend.vercel.app/)
 *****
 ## Video demo link
  * https://drive.google.com/file/d/1foMdPb2hJwZ9A8iz-PolzwFeIP25CaTn/view?usp=sharing
