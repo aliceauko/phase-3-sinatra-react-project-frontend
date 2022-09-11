@@ -34,7 +34,7 @@ Getting:
 - Fork the repo "https://github.com/aliceauko/phase-3-sinatra-react-project-frontend"
 - Create a new branch in your terminal (git checkout -b improve-feature)
 - Install the prerequisites by running npm install and then npm start to start the react app
-- View the app in the browser and use it by adding a name and email adress, select the role and click the add  employee button. Click the dark and light mode button. Click ffilter by role to see the various roles you've added. You can also delete the employee
+- View the app in the browser and use it by adding a name and email adress, select the role and click the add  employee button. Click the dark and light mode button. Click filter by role to see the various roles you've added. You can also delete the employee
 - Make appropriate changes in file(s)
 - Run the server to see the changes
 - Add the changes and commit them (git commit -am "Improve App")

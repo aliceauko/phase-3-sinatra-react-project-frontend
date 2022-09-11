@@ -8,7 +8,7 @@ function TotalList() {
   const [employees, setEmployees] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:9292/employees")
+    fetch("https://phase-3-backend-employee.herokuapp.com/employees")
       .then((r) => r.json())
       .then((employees) => setEmployees(employees));
   }, []);

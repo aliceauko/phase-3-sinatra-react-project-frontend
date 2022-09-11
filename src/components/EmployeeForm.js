@@ -15,7 +15,7 @@ function EmployeeForm({ onAddEmployee }) {
       is_present: false,
 
     };
-    fetch("http://localhost:9292/employees", {
+    fetch("https://phase-3-backend-employee.herokuapp.com/employees", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

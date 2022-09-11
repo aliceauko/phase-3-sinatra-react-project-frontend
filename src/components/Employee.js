@@ -2,7 +2,7 @@ import React from "react";
 
 function Employee({ employee, onDeleteEmployee }) {
   function handleDeleteClick() {
-    fetch(`http://localhost:9292/employee/${employee.id}`, {
+    fetch(`https://phase-3-backend-employee.herokuapp.com/employee/${employee.id}`, {
       method: "DELETE",
     })
       .then((r) => r.json())
